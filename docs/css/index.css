@@ -1,6 +1,7 @@
 h1 {
 	margin-left: 5%;
 
+	font-family: 'Balsamiq Sans', sans-serif;
 	text-align: center;
 	font-size: 3em;
 	font-weight: bold;
@@ -16,8 +17,10 @@ h2 {
 }
 
 body {
-	background-color: #120e09;
+	background-color: #0f0902;
+	font-family: 'Ubuntu Condensed', sans-serif;
 }
+
 p {
 	color: wheat;
 	font-size: 30px;
