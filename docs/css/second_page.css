@@ -1,0 +1,47 @@
+body {
+	background-color: #241B1C;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+p {
+	color: wheat;
+	font-size: 30px;
+}
+
+.col {
+	width: 100%;
+	background-color: #6a371c;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	background-color: #1e110b;
+}
+.nav {
+	display: flex;
+	font-size: 25px;
+	margin-left: 25px;
+	gap: 1em;
+	color: ;
+}
+.hdrbtn {
+	font-size: 25px;
+	margin-left: 25px;
+	color: black;
+	padding: 3px;
+	background-color: darkgray;
+	border: 2px solid black;
+}
+
+@media screen and (min-width: 1180px) {
+	.columns {
+		display: flex;
+		gap: 2.3em;
+	}
+}
+
+h1 {
+	color: #EBD8C9;
+	font-size: 30px;
+}
