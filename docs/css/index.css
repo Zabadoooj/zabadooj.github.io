@@ -105,3 +105,48 @@ p {
 	max-width: 550px;
 	max-height: 400px;
 }
+
+
+
+
+.tablprojects2 {
+	display: flex;
+	gap: 2.5em;
+	margin-top: 30px;
+	justify-content: center;
+}
+.winterupd {
+	width: 50%;
+	max-width: 570px;
+	background-color: #1c1516;
+	text-align: center;
+}
+.winterupd_img {
+	width: 100%;
+	max-width: 550px;
+	max-height: 400px;
+}
+
+.youtube {
+	width: 50%;
+	max-width: 570px;
+	background-color: #1c1516;
+	text-align: center;
+}
+.youtube_img {
+	width: 100%;
+	max-width: 550px;
+	max-height: 400px;
+}
+
+.another {
+	width: 50%;
+	max-width: 570px;
+	background-color: #1c1516;
+	text-align: center;
+}
+.another_img {
+	width: 100%;
+	max-width: 550px;
+	max-height: 400px;
+}
