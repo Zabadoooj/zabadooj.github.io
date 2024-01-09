@@ -1,0 +1,47 @@
+body{
+	background-color: #241B1C;
+}
+
+
+.header{
+	background-color: #00000050;
+	padding: 2%;
+
+	top: 0;
+	left: 0;
+	width: 96%;
+	display: flex;
+}
+.header_nav{
+	width: 100%;
+}
+.header_text{
+	color: #EBD8C9;
+	text-decoration: none;
+	font-size: 150%;
+	padding: 2%;
+	widows: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	color: #ffff;
+	text-align: center;
+	background-color: #00000090;
+	margin-top: 2%;
+	bottom: 0;
+	padding: 1%;
+}
