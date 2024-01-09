@@ -3,7 +3,6 @@ body{
 }
 
 .header{
-	position: fixed;
 	background-color: #00000050;
 	padding: 2%;
 
@@ -23,6 +22,9 @@ body{
 	widows: 100%;
 }
 
+
+
+
 .title{
 	color: #EBD8C9;
 	text-align: center;
@@ -30,7 +32,58 @@ body{
 	margin-bottom: 5%;
 }
 
+
+
+.projects{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+}
+
+
+}
+.project{
+	text-align: center;
+    width: 30%;
+    margin: 10px;
+	background-color: #00000030;
+}
+
+
 .zaba_ava{
-	max-width: 565px;
-	max-height: 565px;
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+    padding: 10px;
+    background-color: #100c0b;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+
+
+@media screen and (min-width: 1080px){
+	.projects{
+		display: flex;
+    	flex-wrap: wrap;
+    	justify-content: space-around;
+    	padding: 20px;
+}
+	}
+	.project img {
+	    max-width: 100%;
+    	height: auto;
+    	max-height: 500px;
+	}
+
+
 }
